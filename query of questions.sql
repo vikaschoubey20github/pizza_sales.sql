@@ -1,4 +1,3 @@
-use pizzahut;
 -- Question no.1 :- Retrieve the total number of orders placed.
 Select count(order_id)as total_number_of_orders from orders;
 -- Question no.2 :-Calculate the total revenue generated from pizza sales.
